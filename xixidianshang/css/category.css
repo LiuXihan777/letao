@@ -1,0 +1,74 @@
+.my-content{
+	width: 100%;
+	bottom: 50px;
+	position:absolute;
+	left: 0;
+	top:44px;
+	background: #f5f5f5;
+}
+.category-left,
+.category-right{
+		height: 100%;
+		position: relative;
+}
+.category-left{
+	width: 80px;
+	float: left;
+	background-color: pink;
+}
+ .category-right{
+	
+	margin-left: 90px;
+	
+}
+.category-right .brand-list {
+	margin-top: 10px;
+	background: #FFF;
+}
+
+.category-left .links {
+	background: #FFF;
+}
+
+.category-left .links a {
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 14px;
+	border-right: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.category-left .links .active {
+	background: #f5f5f5;
+	border-right: 1px solid transparent;
+	/*transparent 透明*/
+}
+.category-right .brand-list li {
+	width: 33.333%;
+	float: left;
+}
+
+.category-right .brand-list li a{
+	display: block;
+}
+
+.category-right .brand-list li img{
+	width: 100%;
+}
+
+.category-right .brand-list li p{
+	text-align: center;
+}
+
+.noresult {
+	padding: 10px;
+	font-size: 14px;
+	color: #f20;
+}
+.noresult{
+	padding:10px;
+	font-size:14px;
+	color:red;
+}
